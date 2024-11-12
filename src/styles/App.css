@@ -1,51 +1,33 @@
-/* Reset some default styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 /* Overall App Layout */
 .app {
   display: flex;
   flex-direction: column;
 }
 
-/* Layout adjustment for main content below topbar */
 .app-content {
   display: flex;
   flex: 1;
-  margin-top: 60px; /* Adjusts content below the Topbar */
+  margin-top: 60px; 
+  transition: margin-left 0.3s;
 }
 
-/* Main Content Area Styling */
+.sidebar-open .content {
+  margin-left: 250px;
+}
+
+.sidebar-closed .content {
+  margin-left: 60px; 
+}
+
+
 .content {
   flex: 1;
   padding: 20px;
   background-color: #ecf0f1;
-  margin-left: 250px; /* Space for the fixed Sidebar */
   overflow-y: auto;
-}
-
-/* Responsive Design for App Layout */
-@media (max-width: 576px) {
-  .content {
-    margin-left: 0;
-  }
 }
 
 .content h1 {
   color: #34495e;
   margin-bottom: 20px;
-}
-
-.content p,
-.content ul {
-  line-height: 1.6;
-}
-
-.content ul {
-  list-style-type: disc;
-  margin-left: 20px;
 }
