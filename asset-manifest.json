@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/resume-website/static/css/main.44aac974.css",
+    "main.js": "/resume-website/static/js/main.de85305a.js",
+    "static/js/453.61468adb.chunk.js": "/resume-website/static/js/453.61468adb.chunk.js",
+    "index.html": "/resume-website/index.html",
+    "static/media/hamburger-icon.svg": "/resume-website/static/media/hamburger-icon.d394060eabdadc070d3b45787e6095b8.svg",
+    "main.44aac974.css.map": "/resume-website/static/css/main.44aac974.css.map",
+    "main.de85305a.js.map": "/resume-website/static/js/main.de85305a.js.map",
+    "453.61468adb.chunk.js.map": "/resume-website/static/js/453.61468adb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44aac974.css",
+    "static/js/main.de85305a.js"
+  ]
+}
